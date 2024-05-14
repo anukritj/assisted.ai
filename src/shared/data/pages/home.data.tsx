@@ -1,5 +1,6 @@
 import {
   IconArrowDown,
+  IconArrowsJoin2,
   IconArrowsRightLeft,
   IconBrandLinkedin,
   IconBrandTailwind,
@@ -10,6 +11,7 @@ import {
   IconComponents,
   IconDownload,
   IconListCheck,
+  IconLockAccess,
   IconMail,
   IconMapPin,
   IconPhoneCall,
@@ -41,40 +43,38 @@ import gasImg from '~/assets/images/gas.jpg';
 export const heroHome: HeroProps = {
   title: (
     <>
-      Free template for <span className="hidden md:inline">starts a website using</span> <span>Next.js</span> +{' '}
-      <span className="sm:whitespace-nowrap">Tailwind CSS</span>
+      Master <span className="hidden md:inline">CA Exams</span> with Your <span>24/7</span> {' '}
+      <span className="sm:whitespace-nowrap">AI Study Partner</span>
     </>
   ),
   subtitle: (
     <>
       <span className="hidden md:inline">
-        <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
-          TailNext
-        </span>{' '}
-        is a production ready template to start your new website using <em>Next.js</em> + <em>Tailwind CSS</em>.
-      </span>{' '}
-      It has been designed following Best Practices, SEO, Accessibility, Dark Mode, great Page Speed, image
-      optimization.
+        Revolutionize your study experience with cutting-edge AI. Save time, effort, and money with features you've never seen before.</span>{' '}
     </>
   ),
+  
   callToAction: {
-    text: 'Get template',
-    href: 'https://github.com/onwidget/tailnext',
-    icon: IconDownload,
+    text: 'Join the Waitlist',
+    href: '#',
+    icon: IconArrowsJoin2,
     targetBlank: true,
   },
   callToAction2: {
-    text: 'Learn more',
-    href: '/',
+    text: 'Learn More',
+    href: '#',
   },
   image: {
     src: heroImg,
-    alt: 'Hero TailNext',
+    alt: 'AssistED.ai Hero Image',
   },
 };
 
+
+
+
 // SocialProof data on Home page *******************
-export const socialProofHome: SocialProofProps = {
+/*export const socialProofHome: SocialProofProps = {
   id: 'socialProof-on-home',
   hasBackground: false,
   images: [
@@ -99,7 +99,7 @@ export const socialProofHome: SocialProofProps = {
       alt: 'Typescript Logo',
     },
   ],
-};
+};*/
 
 // Features data on Home page *******************
 export const featuresHome: FeaturesProps = {
@@ -109,187 +109,205 @@ export const featuresHome: FeaturesProps = {
   header: {
     title: (
       <>
-        What you get with <span className="whitespace-nowrap">TailNext</span>
+        What You Get with <span className="whitespace-nowrap">AssistED.ai</span>
       </>
     ),
     subtitle:
-      "Elevating Your Digital Presence: Discover the Synergies Unleashed in Our Platform's Core Strengths, from Seamless Integration to Open Collaboration.",
+      "Discover the awesome features that make your exam prep fun and effective!",
     tagline: 'Features',
   },
   items: [
     {
-      title: 'Next.Js + Tailwind CSS Integration',
+      title: '24/7 Doubt Solving',
       description:
-        'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
-      icon: IconBrandTailwind,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
-    },
-    {
-      title: 'Ready-to-use Components',
-      description:
-        'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
-      icon: IconComponents,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
-    },
-    {
-      title: 'Best Practices',
-      description:
-        'By prioritizing maintainability and scalability through coding standards and design principles, your website stays robust and efficient.',
-      icon: IconListCheck,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
-    },
-    {
-      title: 'Excellent Page Speed',
-      description:
-        'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
-      icon: IconRocket,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
-    },
-    {
-      title: 'Search Engine Optimization (SEO)',
-      description:
-        "Boost online visibility with our SEO-friendly website. Effective strategies and practices enhance your website's search engine ranking, making it easier for users to find your content.",
-      icon: IconArrowsRightLeft,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
-    },
-    {
-      title: 'Open to new ideas and contributions',
-      description:
-        'We welcome new ideas and contributions to our platform. Whether you have feature suggestions, want to contribute code, or share insights, our platform is open for collaboration.',
+        'Never get stuck! Get instant answers anytime, especially during those late-night study marathons.',
       icon: IconBulb,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
+      // callToAction: {
+      //   text: 'Learn More',
+      //   href: '/features',
+      // },
+    },
+    {
+      title: 'Personalized Learning',
+      description:
+        'Customized study plans tailored to your syllabus, helping you stay ahead effortlessly.',
+      icon: IconComponents,
+      // callToAction: {
+      //   text: 'Learn More',
+      //   href: '/features',
+      // },
+    },
+    {
+      title: 'Accurate and Contextual',
+      description:
+        'Trustworthy AI that understands your syllabus and provides precise answers.',
+      icon: IconCheck,
+      // callToAction: {
+      //   text: 'Learn More',
+      //   href: '/features',
+      // },
+    },
+    {
+      title: 'Study at Your Own Pace',
+      description:
+        'Flexible study sessions that fit your schedule, so you can learn at your own speed.',
+      icon: IconClock,
+      // callToAction: {
+      //   text: 'Learn More',
+      //   href: '/features',
+      // },
+    },
+    {
+      title: 'Boost Your Confidence',
+      description:
+        'With constant support, feel more prepared and confident for your exams.',
+      icon: IconRocket,
+      // callToAction: {
+      //   text: 'Learn More',
+      //   href: '/features',
+      // },
+    },
+    {
+      title: 'Safe and Secure',
+      description:
+        'Your data is protected with top-notch security measures, ensuring a safe learning environment.',
+      icon: IconLockAccess,
+      // callToAction: {
+      //   text: 'Learn More',
+      //   href: '/features',
+      // },
     },
   ],
 };
+
 
 // Content data on Home page *******************
 export const contentHomeOne: ContentProps = {
   id: 'contentOne-on-home-one',
   hasBackground: true,
   header: {
-    title: 'Aliquip definiebas ad est',
-    subtitle: 'Quando cetero his ne, eum admodum sapientem ut',
-    tagline: 'Content',
+    title: 'Revolutionize Your Study Routine',
+    subtitle: 'Discover how AssistED.ai can help you ace your exams with ease and confidence.',
+    tagline: 'For Students',
   },
   content:
-    'Ne dicta praesent ocurreret has, diam theophrastus at pro. Eos etiam regione ut, persius eripuit quo id. Sit te euismod tacimates.',
+    'AssistED.ai is designed to make your study sessions more effective and enjoyable with cutting-edge AI technology. Here are some key features that set us apart:',
   items: [
     {
-      title: 'Per ei quaeque sensibus',
+      title: '24/7 AI Doubt Solving',
       description:
-        'Ex usu illum iudico molestie. Pro ne agam facete mediocritatem, ridens labore facete mea ei. Pro id apeirian dignissim.',
+        'Get your questions answered instantly, no matter the time of day. Perfect for those late-night study sessions.',
     },
     {
-      title: 'Cu imperdiet posidonium sed',
+      title: 'Tailored to Your Syllabus',
       description:
-        'Amet utinam aliquando ut mea, malis admodum ocurreret nec et, elit tibique cu nec. Nec ex maluisset inciderint, ex quis.',
+        'Our AI understands your specific syllabus, ensuring the answers and resources you get are always relevant and accurate.',
     },
     {
-      title: 'Nulla omittam sadipscing mel ne',
+      title: 'Interactive Learning Tools',
       description:
-        'At sed possim oporteat probatus, justo graece ne nec, minim commodo legimus ut vix. Ut eos iudico quando soleat, nam modus.',
+        'Engage with your study material through interactive tools that make learning more dynamic and fun.',
     },
   ],
   image: {
     src: cameraFrontImg,
-    alt: 'Colorful Image',
+    alt: 'Student using AssistED.ai',
   },
   isReversed: false,
   isAfterContent: false,
 };
 
+
 // Content data on Home page *******************
 export const contentHomeTwo: ContentProps = {
   id: 'contentOne-on-home-two',
   hasBackground: true,
+  header: {
+    title: 'Empower Your Coaching Center',
+    subtitle: 'Utilize AssistED.ai’s platform to build your own AI-powered doubt solving tool.',
+    tagline: 'For Coaching Centers',
+  },
   content:
-    'Per odio fabellas consulatu cu. Utroque detracto mel ea, quo te latine theophrastus. Ea his tale nib dissentias, mei exerci tamquam euripidis cu.',
+    'AssistED.ai offers a comprehensive platform for coaching centers to enhance their teaching capabilities and provide students with cutting-edge AI support.',
   items: [
     {
-      title: 'Per ei quaeque sensibus',
+      title: 'Seamless Integration',
+      description:
+        'Easily integrate our AI tools into your existing platforms and websites, providing students with instant access to doubt solving.',
     },
     {
-      title: 'Cu imperdiet posidonium sed',
+      title: 'Custom AI Models',
+      description:
+        'Develop AI models tailored to your curriculum, ensuring that the support provided is specific to your teaching methods and materials.',
     },
     {
-      title: 'Nulla omittam sadipscing mel ne',
+      title: 'Enhance Student Engagement',
+      description:
+        'Boost student participation and performance by providing real-time doubt solving and personalized learning experiences.',
     },
     {
-      title: 'Per ei quaeque sensibus',
+      title: 'Scalable Solutions',
+      description:
+        'Our platform grows with you, capable of handling increasing numbers of students and their queries as your coaching center expands.',
     },
     {
-      title: 'Cu imperdiet posidonium sed',
-    },
-    {
-      title: 'Nulla omittam sadipscing mel ne',
+      title: 'Detailed Analytics',
+      description:
+        'Gain insights into student performance and identify areas for improvement with comprehensive analytics and reporting tools.',
     },
   ],
   image: {
     src: cameraBackImg,
-    alt: 'Colorful Image',
+    alt: 'Coaching center using AssistED.ai',
   },
   isReversed: true,
   isAfterContent: true,
 };
 
+
 // Steps data on Home page *******************
-export const stepsHome: StepsProps = {
+/*export const stepsHome: StepsProps = {
   id: 'steps-on-home',
   hasBackground: false,
   isReversed: false,
   isImageDisplayed: true,
   image: {
     src: gasImg,
-    alt: 'Steps image',
+    alt: 'Steps to create AI platform',
   },
   header: {
-    title: 'Sed ac magna sit amet risus tristique interdum.',
+    title: 'Create Your AI-Powered Doubt Solver in 3 Simple Steps',
   },
   items: [
     {
-      title: 'Step 1',
+      title: 'Step 1: Upload Your Content',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla. Praesent placerat enim ut ex tincidunt vehicula. Fusce sit amet dui tellus.',
+        'Start by uploading your study materials, including notes, practice questions, and video lectures, to our platform.',
       icon: IconArrowDown,
     },
     {
-      title: 'Step 2',
+      title: 'Step 2: Customize Your AI Model',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.',
+        'Use our intuitive tools to train and customize your AI model to match your curriculum and teaching style.',
       icon: IconArrowDown,
     },
     {
-      title: 'Step 3',
+      title: 'Step 3: Integrate and Launch',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.',
+        'Integrate the AI doubt solver into your website or learning management system and start enhancing your students’ learning experience.',
       icon: IconArrowDown,
     },
     {
       title: 'Ready!',
+      description:
+        'Your AI-powered doubt solver is now ready to help your students excel!',
     },
   ],
-};
+};*/
+
 
 // Testimonials data on Home page *******************
-export const testimonialsHome: TestimonialsProps = {
+/*export const testimonialsHome: TestimonialsProps = {
   id: 'testimonials-on-home',
   hasBackground: true,
   header: {
@@ -359,7 +377,7 @@ export const testimonialsHome: TestimonialsProps = {
       href: '/',
     },
   ],
-};
+};*/
 
 // FAQS data on Home page *******************
 export const faqs2Home: FAQsProps = {
@@ -368,39 +386,39 @@ export const faqs2Home: FAQsProps = {
   header: {
     title: 'Frequently Asked Questions',
     subtitle:
-      'Duis turpis dui, fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar.',
+      'Find answers to the most common questions about using AssistED.ai for your CA exam preparation.',
     tagline: 'FAQS',
   },
   items: [
     {
-      title: 'What do I need to start?',
-      description: `Nunc mollis tempor quam, non fringilla elit sagittis in. Nullam vitae consectetur mi, a elementum arcu. Sed laoreet, ipsum et vehicula dignissim, leo orci pretium sem, ac condimentum tellus est quis ligula.`,
+      title: 'What is AssistED.ai?',
+      description: `AssistED.ai is a 24/7 AI-powered study buddy designed to help CA students with instant doubt solving, personalized learning paths, and interactive study tools.`,
     },
     {
-      title: 'How to install the NextJS + Tailwind CSS template?',
-      description: `Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eleifend vestibulum nisl in iaculis. Mauris dictum ac purus vestibulum auctor. Praesent imperdiet lectus et massa faucibus, quis viverra massa rhoncus.`,
+      title: 'How does the 24/7 doubt solving work?',
+      description: `Our AI is available round-the-clock to answer your questions immediately. Simply type your query, and our AI provides instant, accurate answers based on your syllabus.`,
     },
     {
-      title: "What's something that you completely don't understand?",
-      description: `Mauris vitae eros a dui varius luctus. Suspendisse rutrum, sapien nec blandit bibendum, justo sapien sollicitudin erat, id aliquam sapien purus quis leo. Aliquam vulputate vestibulum consectetur.`,
+      title: 'Is AssistED.ai tailored for CA exams?',
+      description: `Yes, AssistED.ai is specifically designed to cater to the syllabus and requirements of CA students, ensuring the content and solutions are always relevant and helpful.`,
     },
     {
-      title: "What's an example of when you changed your mind?",
-      description: `Nunc dapibus lacinia ipsum ut elementum. Integer in pretium sapien. Ut pretium nisl mauris, ut rutrum justo condimentum id. Etiam aliquet, arcu at iaculis laoreet, est arcu egestas sapien, eget sollicitudin odio orci et nunc.`,
+      title: 'Can I access AssistED.ai on my mobile?',
+      description: `Absolutely! AssistED.ai is accessible on any device, including mobile phones, tablets, and computers, so you can study and resolve doubts on the go.`,
     },
     {
-      title: 'What is something that you would really like to try again?',
-      description: `Duis in maximus mauris, id eleifend mauris. Nam a fringilla arcu. Curabitur convallis, tellus non aliquet rhoncus, lacus massa auctor eros, in interdum lectus augue sed augue. Fusce tempor ex id faucibus efficitur.`,
+      title: 'How do I get started with AssistED.ai?',
+      description: `Getting started is easy! Simply sign up on our website, choose your study plan, and start using AssistED.ai for instant doubt solving and personalized study support.`,
     },
     {
-      title: 'If you could only ask one question to each person you meet, what would that question be?',
-      description: `Nullam imperdiet sapien tincidunt erat dapibus faucibus. Vestibulum a sem nec lorem imperdiet scelerisque non sed lacus. Ut pulvinar id diam vitae auctor. Nam tempus, neque et elementum consectetur, ex ipsum pulvinar risus, vel sodales ligula tortor eu eros.`,
+      title: 'Is my data safe with AssistED.ai?',
+      description: `We prioritize your data security. AssistED.ai employs advanced security measures to ensure that your personal information and study data are protected at all times.`,
     },
   ],
 };
 
 // Pricing data on Home page *******************
-export const pricingHome: PricingProps = {
+/*export const pricingHome: PricingProps = {
   id: 'pricing-on-home',
   hasBackground: true,
   header: {
@@ -487,10 +505,10 @@ export const pricingHome: PricingProps = {
       hasRibbon: false,
     },
   ],
-};
+};*/
 
 // Team data on Home page *******************
-export const teamHome: TeamProps = {
+/*export const teamHome: TeamProps = {
   id: 'team-on-home',
   hasBackground: false,
   header: {
@@ -601,10 +619,10 @@ export const teamHome: TeamProps = {
       ],
     },
   ],
-};
+};*/
 
 // Contact data on Home page *******************
-export const contactHome: ContactProps = {
+/*export const contactHome: ContactProps = {
   hasBackground: true,
   header: {
     title: 'Get in Touch',
@@ -657,10 +675,10 @@ export const contactHome: ContactProps = {
       type: 'submit',
     },
   },
-};
+};*/
 
 // CallToAction data *******************
-export const callToAction2Home: CallToActionProps = {
+/*export const callToAction2Home: CallToActionProps = {
   title: 'Next.js + Tailwind CSS',
   subtitle:
     'Aliquam sodales porttitor lacus ac tristique. Etiam posuere elit at leo feugiat sodales. Sed ac mauris quis sem tempor condimentum non at metus.',
@@ -698,4 +716,4 @@ export const callToAction2Home: CallToActionProps = {
       },
     },
   ],
-};
+};*/
