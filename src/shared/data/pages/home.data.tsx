@@ -30,27 +30,27 @@ import {
   TeamProps,
   TestimonialsProps,
 } from '../../types';
-import heroImg from '~/assets/images/hero.jpg';
+import heroImg from '~/assets/images/hero-image.jpg';
 import nextJsLogo from '~/assets/images/nextjs-logo.png';
 import reactLogo from '~/assets/images/react-logo.png';
 import tailwindCssLogo from '~/assets/images/tailwind-css-logo.png';
 import typescriptLogo from '~/assets/images/typescript-logo.png';
-import cameraFrontImg from '~/assets/images/camera-front.jpg';
-import cameraBackImg from '~/assets/images/camera-back.jpg';
+import cameraFrontImg from '~/assets/images/Learning-pana.png';
+import cameraBackImg from '~/assets/images/Webinar-pana.png';
 import gasImg from '~/assets/images/gas.jpg';
 
 // Hero data on Home page *******************
 export const heroHome: HeroProps = {
   title: (
     <>
-      Master <span className="hidden md:inline">Any Exam</span> with Your <span>24 / 7</span> {' '}
-      <span className="sm:whitespace-nowrap">AI Study Partner</span>
+      Never <span className="hidden md:inline">Face</span> Exams <span>Alone, </span> {' '}
+      <span className="sm:whitespace-nowrap">Get AssistED.ai</span>
     </>
   ),
   subtitle: (
     <>
       <span className="hidden md:inline">
-        Revolutionize your study experience with cutting-edge AI. Save time, effort, and money with features you've never seen before.</span>{' '}
+      Clear Doubts Fast, Learn Better, Score Higher</span>{' '}
     </>
   ),
   
@@ -60,10 +60,10 @@ export const heroHome: HeroProps = {
     icon: IconArrowsJoin2,
     targetBlank: true,
   },
-  callToAction2: {
-    text: 'Learn More',
-    href: '#',
-  },
+  // callToAction2: {
+  //   text: 'Learn More',
+  //   href: '#',
+  // },
   image: {
     src: heroImg,
     alt: 'AssistED.ai Hero Image',

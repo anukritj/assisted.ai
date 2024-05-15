@@ -52,6 +52,9 @@ const Content = ({
               />
             </div>
           )}
+          <a href="https://storyset.com/people" style={{ fontSize: '10px' }}>
+            People illustrations by Storyset
+          </a>
         </div>
       </div>
     </div>
