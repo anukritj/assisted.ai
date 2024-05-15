@@ -1,10 +1,10 @@
 module.exports.SITE = {
-  name: 'TailNext',
+  name: 'AsistED.ai',
 
   origin: 'https://tailnext.vercel.app',
   basePathname: '/',
   trailingSlash: false,
 
-  title: 'TailNext — Your website with Next.js + Tailwind CSS',
-  description: 'TailNext is a free and ready to start template to make your website using Next.js and Tailwind CSS.',
+  title: 'AssistED.ai — Your AI Learning Assistant for Competitive Exams',
+  description: 'AssistED.ai helps students preparing for competitive exams with 24/7 AI doubt solving, personalized learning, and accurate, contextual assistance.',
 };

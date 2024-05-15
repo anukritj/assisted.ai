@@ -56,7 +56,7 @@ export const heroHome: HeroProps = {
   ),
   callToAction: {
     text: 'Join the Waitlist',
-    href: '#',
+    href: 'https://vxpxja.frms.ai/66446dac416d2bff4eff5888',
     icon: IconArrowsJoin2,
     targetBlank: true,
   },

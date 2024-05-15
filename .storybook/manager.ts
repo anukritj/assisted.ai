@@ -6,7 +6,7 @@ addons.setConfig({
     base: 'light',
 
     // Logo
-    brandTitle: 'TailNext',
+    brandTitle: 'AssistED.ai',
     brandUrl: 'https://github.com/onwidget/tailnext',
     brandTarget: '_blank',
   }),
