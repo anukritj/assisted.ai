@@ -24,7 +24,7 @@ export const announcementData: AnnouncementProps = {
 // Header data
 export const headerData: HeaderProps = {
   links: [
-    /*{
+    {
       label: 'Pages',
       icon: IconChevronDown,
       links: [
@@ -57,7 +57,7 @@ export const headerData: HeaderProps = {
           href: '/privacy',
         },
       ],
-    },*/
+    },
     {
       label: 'Blog',
       href: '/blog',

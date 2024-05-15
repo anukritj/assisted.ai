@@ -43,7 +43,7 @@ import gasImg from '~/assets/images/gas.jpg';
 export const heroHome: HeroProps = {
   title: (
     <>
-      Master <span className="hidden md:inline">CA Exams</span> with Your <span>24/7</span> {' '}
+      Master <span className="hidden md:inline">Any Exam</span> with Your <span>24 / 7</span> {' '}
       <span className="sm:whitespace-nowrap">AI Study Partner</span>
     </>
   ),
