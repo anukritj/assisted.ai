@@ -30,7 +30,7 @@ import {
   TeamProps,
   TestimonialsProps,
 } from '../../types';
-import heroImg from '~/assets/images/hero-image.jpg';
+import heroImg from '~/assets/images/hero-image.png';
 import nextJsLogo from '~/assets/images/nextjs-logo.png';
 import reactLogo from '~/assets/images/react-logo.png';
 import tailwindCssLogo from '~/assets/images/tailwind-css-logo.png';
@@ -43,27 +43,23 @@ import gasImg from '~/assets/images/gas.jpg';
 export const heroHome: HeroProps = {
   title: (
     <>
-      Never <span className="hidden md:inline">Face</span> Exams <span>Alone, </span> {' '}
-      <span className="sm:whitespace-nowrap">Get AssistED.ai</span>
+      Never Face Exams <span>Alone,</span>{' '}
+      <span className="sm:whitespace-nowrap text-primary-600">Get AssistED.ai</span>
     </>
   ),
   subtitle: (
     <>
-      <span className="hidden md:inline">
-      Clear Doubts Fast, Learn Better, Score Higher</span>{' '}
+      <span>
+        Clear Doubts Fast, Learn Better, Score Higher
+      </span>{' '}
     </>
   ),
-  
   callToAction: {
     text: 'Join the Waitlist',
     href: '#',
     icon: IconArrowsJoin2,
     targetBlank: true,
   },
-  // callToAction2: {
-  //   text: 'Learn More',
-  //   href: '#',
-  // },
   image: {
     src: heroImg,
     alt: 'AssistED.ai Hero Image',
@@ -194,7 +190,7 @@ export const contentHomeOne: ContentProps = {
     'AssistED.ai is designed to make your study sessions more effective and enjoyable with cutting-edge AI technology. Here are some key features that set us apart:',
   items: [
     {
-      title: '24/7 AI Doubt Solving',
+      title: 'Instant answers to any doubt',
       description:
         'Get your questions answered instantly, no matter the time of day. Perfect for those late-night study sessions.',
     },
@@ -211,7 +207,7 @@ export const contentHomeOne: ContentProps = {
   ],
   image: {
     src: cameraFrontImg,
-    alt: 'Student using AssistED.ai',
+    alt: 'Student using AssistED.ai for Exam Preparation',
   },
   isReversed: false,
   isAfterContent: false,
@@ -258,7 +254,7 @@ export const contentHomeTwo: ContentProps = {
   ],
   image: {
     src: cameraBackImg,
-    alt: 'Coaching center using AssistED.ai',
+    alt: 'Coaching centers using AssistED.ai',
   },
   isReversed: true,
   isAfterContent: true,

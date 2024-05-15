@@ -41,7 +41,7 @@ const Content = ({
           {image && (
             <div className="relative m-auto max-w-4xl">
               <Image
-                className="mx-auto w-full rounded-lg shadow-lg bg-gray-400 dark:bg-slate-700"
+                className="mx-auto w-full rounded-lg shadow-lg bg-blue-300 dark:bg-slate-700"
                 src={image.src}
                 width={828}
                 height={828}
