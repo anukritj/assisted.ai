@@ -713,3 +713,11 @@ export const faqs2Home: FAQsProps = {
     },
   ],
 };*/
+
+export const callToAction2Home = {};
+export const socialProofHome = {};
+export const stepsHome = {};
+export const testimonialsHome = {};
+export const pricingHome = {};
+export const teamHome = {};
+export const contactHome = {};
