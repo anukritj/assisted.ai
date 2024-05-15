@@ -18,17 +18,17 @@ import {
   IconRocket,
 } from '@tabler/icons-react';
 import {
-  CallToActionProps,
-  ContactProps,
+  // CallToActionProps,
+  // ContactProps,
   ContentProps,
   FAQsProps,
   FeaturesProps,
   HeroProps,
-  PricingProps,
-  SocialProofProps,
-  StepsProps,
-  TeamProps,
-  TestimonialsProps,
+  // PricingProps,
+  // SocialProofProps,
+  // StepsProps,
+  // TeamProps,
+  // TestimonialsProps,
 } from '../../types';
 import heroImg from '~/assets/images/hero-image.png';
 import nextJsLogo from '~/assets/images/nextjs-logo.png';
