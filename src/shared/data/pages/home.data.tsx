@@ -18,17 +18,17 @@ import {
   IconRocket,
 } from '@tabler/icons-react';
 import {
-  // CallToActionProps,
-  // ContactProps,
+  CallToActionProps,
+  ContactProps,
   ContentProps,
   FAQsProps,
   FeaturesProps,
   HeroProps,
-  // PricingProps,
-  // SocialProofProps,
-  // StepsProps,
-  // TeamProps,
-  // TestimonialsProps,
+  PricingProps,
+  SocialProofProps,
+  StepsProps,
+  TeamProps,
+  TestimonialsProps,
 } from '../../types';
 import heroImg from '~/assets/images/hero-image.png';
 import nextJsLogo from '~/assets/images/nextjs-logo.png';
@@ -70,7 +70,7 @@ export const heroHome: HeroProps = {
 
 
 // SocialProof data on Home page *******************
-/*export const socialProofHome: SocialProofProps = {
+export const socialProofHome: SocialProofProps = {
   id: 'socialProof-on-home',
   hasBackground: false,
   images: [
@@ -95,7 +95,7 @@ export const heroHome: HeroProps = {
       alt: 'Typescript Logo',
     },
   ],
-};*/
+};
 
 // Features data on Home page *******************
 export const featuresHome: FeaturesProps = {
@@ -262,7 +262,7 @@ export const contentHomeTwo: ContentProps = {
 
 
 // Steps data on Home page *******************
-/*export const stepsHome: StepsProps = {
+export const stepsHome: StepsProps = {
   id: 'steps-on-home',
   hasBackground: false,
   isReversed: false,
@@ -299,11 +299,11 @@ export const contentHomeTwo: ContentProps = {
         'Your AI-powered doubt solver is now ready to help your students excel!',
     },
   ],
-};*/
+};
 
 
 // Testimonials data on Home page *******************
-/*export const testimonialsHome: TestimonialsProps = {
+export const testimonialsHome: TestimonialsProps = {
   id: 'testimonials-on-home',
   hasBackground: true,
   header: {
@@ -373,7 +373,7 @@ export const contentHomeTwo: ContentProps = {
       href: '/',
     },
   ],
-};*/
+};
 
 // FAQS data on Home page *******************
 export const faqs2Home: FAQsProps = {
@@ -414,7 +414,7 @@ export const faqs2Home: FAQsProps = {
 };
 
 // Pricing data on Home page *******************
-/*export const pricingHome: PricingProps = {
+export const pricingHome: PricingProps = {
   id: 'pricing-on-home',
   hasBackground: true,
   header: {
@@ -501,10 +501,10 @@ export const faqs2Home: FAQsProps = {
       hasRibbon: false,
     },
   ],
-};*/
+};
 
 // Team data on Home page *******************
-/*export const teamHome: TeamProps = {
+export const teamHome: TeamProps = {
   id: 'team-on-home',
   hasBackground: false,
   header: {
@@ -615,10 +615,10 @@ export const faqs2Home: FAQsProps = {
       ],
     },
   ],
-};*/
+};
 
 // Contact data on Home page *******************
-/*export const contactHome: ContactProps = {
+export const contactHome: ContactProps = {
   hasBackground: true,
   header: {
     title: 'Get in Touch',
@@ -671,10 +671,10 @@ export const faqs2Home: FAQsProps = {
       type: 'submit',
     },
   },
-};*/
+};
 
 // CallToAction data *******************
-/*export const callToAction2Home: CallToActionProps = {
+export const callToAction2Home: CallToActionProps = {
   title: 'Next.js + Tailwind CSS',
   subtitle:
     'Aliquam sodales porttitor lacus ac tristique. Etiam posuere elit at leo feugiat sodales. Sed ac mauris quis sem tempor condimentum non at metus.',
@@ -712,12 +712,12 @@ export const faqs2Home: FAQsProps = {
       },
     },
   ],
-};*/
+};
 
-export const callToAction2Home = {};
-export const socialProofHome = {};
-export const stepsHome = {};
-export const testimonialsHome = {};
-export const pricingHome = {};
-export const teamHome = {};
-export const contactHome = {};
+// export const callToAction2Home = {};
+// export const socialProofHome = {};
+// export const stepsHome = {};
+// export const testimonialsHome = {};
+// export const pricingHome = {};
+// export const teamHome = {};
+// export const contactHome = {};
