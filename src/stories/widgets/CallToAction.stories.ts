@@ -17,6 +17,7 @@ const meta = {
   argTypes: {},
 } satisfies Meta<typeof Component>;
 
+// export default meta;
 type Story = StoryObj<typeof meta>;
 
 // More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
@@ -43,5 +44,3 @@ export const Mobile: Story = {
     },
   },
 };
-
-export default meta;
