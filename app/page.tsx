@@ -14,18 +14,18 @@ import FAQs2 from '~/components/widgets/FAQs2';
 // import CallToAction2 from '~/components/widgets/CallToAction2';
 // import Contact from '~/components/widgets/Contact';
 import {
-  callToAction2Home,
-  contactHome,
+  // callToAction2Home,
+  // contactHome,
   contentHomeOne,
   contentHomeTwo,
   faqs2Home,
   featuresHome,
   heroHome,
-  pricingHome,
-  socialProofHome,
-  stepsHome,
-  teamHome,
-  testimonialsHome,
+  // pricingHome,
+  // socialProofHome,
+  // stepsHome,
+  // teamHome,
+  // testimonialsHome,
 } from '~/shared/data/pages/home.data';
 
 export const metadata: Metadata = {
