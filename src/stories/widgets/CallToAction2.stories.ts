@@ -1,10 +1,9 @@
 import type { Meta, StoryObj } from '@storybook/react';
-
 import Component from '~/components/widgets/CallToAction2';
 import { callToAction2Home as mockData } from '~/shared/data/pages/home.data';
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
-const meta = {
+const meta: Meta<typeof Component> = {
   title: 'Widgets/CallToAction2',
   component: Component,
   parameters: {
@@ -15,9 +14,10 @@ const meta = {
   tags: ['autodocs'],
   // More on argTypes: https://storybook.js.org/docs/api/argtypes
   argTypes: {},
-} satisfies Meta<typeof Component>;
+};
 
-// export default meta;
+export default meta;
+
 type Story = StoryObj<typeof meta>;
 
 // More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
