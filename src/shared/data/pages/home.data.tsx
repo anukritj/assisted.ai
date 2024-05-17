@@ -44,7 +44,7 @@ export const heroHome: HeroProps = {
   title: (
     <>
       Never Face Exams <span>Alone,</span>{' '}
-      <span className="sm:whitespace-nowrap text-primary-600">Get AssistED.ai</span>
+      <span className="sm:whitespace-nowrap text-primary-600">Get AssistED AI</span>
     </>
   ),
   subtitle: (
@@ -62,7 +62,7 @@ export const heroHome: HeroProps = {
   },
   image: {
     src: heroImg,
-    alt: 'AssistED.ai Hero Image',
+    alt: 'AssistED AI Hero Image',
   },
 };
 
@@ -105,7 +105,7 @@ export const featuresHome: FeaturesProps = {
   header: {
     title: (
       <>
-        What You Get with <span className="whitespace-nowrap">AssistED.ai</span>
+        What You Get with <span className="whitespace-nowrap">AssistED AI</span>
       </>
     ),
     subtitle:
@@ -183,11 +183,11 @@ export const contentHomeOne: ContentProps = {
   hasBackground: true,
   header: {
     title: 'Revolutionize Your Study Routine',
-    subtitle: 'Discover how AssistED.ai can help you ace your exams with ease and confidence.',
+    subtitle: 'Discover how AssistED AI can help you ace your exams with ease and confidence.',
     tagline: 'For Students',
   },
   content:
-    'AssistED.ai is designed to make your study sessions more effective and enjoyable with cutting-edge AI technology. Here are some key features that set us apart:',
+    'AssistED AI is designed to make your study sessions more effective and enjoyable with cutting-edge AI technology. Here are some key features that set us apart:',
   items: [
     {
       title: 'Instant answers to any doubt',
@@ -207,7 +207,7 @@ export const contentHomeOne: ContentProps = {
   ],
   image: {
     src: cameraFrontImg,
-    alt: 'Student using AssistED.ai for Exam Preparation',
+    alt: 'Student using AssistED AI for Exam Preparation',
   },
   isReversed: false,
   isAfterContent: false,
@@ -220,11 +220,11 @@ export const contentHomeTwo: ContentProps = {
   hasBackground: true,
   header: {
     title: 'Empower Your Coaching Center',
-    subtitle: 'Utilize AssistED.ai’s platform to build your own AI-powered doubt solving tool.',
+    subtitle: 'Utilize AssistED AI’s platform to build your own AI-powered doubt solving tool.',
     tagline: 'For Coaching Centers',
   },
   content:
-    'AssistED.ai offers a comprehensive platform for coaching centers to enhance their teaching capabilities and provide students with cutting-edge AI support.',
+    'AssistED AI offers a comprehensive platform for coaching centers to enhance their teaching capabilities and provide students with cutting-edge AI support.',
   items: [
     {
       title: 'Seamless Integration',
@@ -254,7 +254,7 @@ export const contentHomeTwo: ContentProps = {
   ],
   image: {
     src: cameraBackImg,
-    alt: 'Coaching centers using AssistED.ai',
+    alt: 'Coaching centers using AssistED AI',
   },
   isReversed: true,
   isAfterContent: true,
@@ -382,33 +382,33 @@ export const faqs2Home: FAQsProps = {
   header: {
     title: 'Frequently Asked Questions',
     subtitle:
-      'Find answers to the most common questions about using AssistED.ai for your CA exam preparation.',
+      'Find answers to the most common questions about using AssistED AI for your CA exam preparation.',
     tagline: 'FAQS',
   },
   items: [
     {
-      title: 'What is AssistED.ai?',
-      description: `AssistED.ai is a 24/7 AI-powered study buddy designed to help CA students with instant doubt solving, personalized learning paths, and interactive study tools.`,
+      title: 'What is AssistED AI?',
+      description: `AssistED AI is a 24/7 AI-powered study buddy designed to help CA students with instant doubt solving, personalized learning paths, and interactive study tools.`,
     },
     {
       title: 'How does the 24/7 doubt solving work?',
       description: `Our AI is available round-the-clock to answer your questions immediately. Simply type your query, and our AI provides instant, accurate answers based on your syllabus.`,
     },
     {
-      title: 'Is AssistED.ai tailored for CA exams?',
-      description: `Yes, AssistED.ai is specifically designed to cater to the syllabus and requirements of CA students, ensuring the content and solutions are always relevant and helpful.`,
+      title: 'Is AssistED AI tailored for CA exams?',
+      description: `Yes, AssistED AI is specifically designed to cater to the syllabus and requirements of CA students, ensuring the content and solutions are always relevant and helpful.`,
     },
     {
-      title: 'Can I access AssistED.ai on my mobile?',
-      description: `Absolutely! AssistED.ai is accessible on any device, including mobile phones, tablets, and computers, so you can study and resolve doubts on the go.`,
+      title: 'Can I access AssistED AI on my mobile?',
+      description: `Absolutely! AssistED AI is accessible on any device, including mobile phones, tablets, and computers, so you can study and resolve doubts on the go.`,
     },
     {
-      title: 'How do I get started with AssistED.ai?',
-      description: `Getting started is easy! Simply sign up on our website, choose your study plan, and start using AssistED.ai for instant doubt solving and personalized study support.`,
+      title: 'How do I get started with AssistED AI?',
+      description: `Getting started is easy! Simply sign up on our website, choose your study plan, and start using AssistED AI for instant doubt solving and personalized study support.`,
     },
     {
-      title: 'Is my data safe with AssistED.ai?',
-      description: `We prioritize your data security. AssistED.ai employs advanced security measures to ensure that your personal information and study data are protected at all times.`,
+      title: 'Is my data safe with AssistED AI?',
+      description: `We prioritize your data security. AssistED AI employs advanced security measures to ensure that your personal information and study data are protected at all times.`,
     },
   ],
 };

@@ -5,6 +5,6 @@ module.exports.SITE = {
   basePathname: '/',
   trailingSlash: false,
 
-  title: 'AssistED.ai — Your AI Learning Assistant for Competitive Exams',
-  description: 'AssistED.ai helps students preparing for competitive exams with 24/7 AI doubt solving, personalized learning, and accurate, contextual assistance.',
+  title: 'AssistED AI — Your AI Learning Assistant for Competitive Exams',
+  description: 'AssistED AI helps students preparing for competitive exams with 24/7 AI doubt solving, personalized learning, and accurate, contextual assistance.',
 };

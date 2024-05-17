@@ -82,7 +82,7 @@ export const headerData: HeaderProps = {
 
 // Footer data
 export const footerData: FooterProps = {
-  title: 'AssistED.ai',
+  title: 'AssistED AI',
   links: [
     {
       label: 'Terms & Conditions',
@@ -212,7 +212,7 @@ export const footerData: FooterProps = {
       Made by{' '}
       <a className="text-blue-600 hover:underline dark:text-gray-200" href="#">
         {' '}
-        AssistED.ai
+        AssistED AI
       </a>{' '}
       · All rights reserved.
     </div>
@@ -261,7 +261,7 @@ export const footerData2: FooterProps = {
         href="#"
       >
         {' '}
-        AssistED.ai
+        AssistED AI
       </a>{' '}
       · All rights reserved.
     </div>
