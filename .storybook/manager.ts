@@ -7,7 +7,7 @@ addons.setConfig({
 
     // Logo
     brandTitle: 'AssistED AI',
-    brandUrl: 'https://github.com/onwidget/tailnext',
+    brandUrl: 'https://www.getassisted.io',
     brandTarget: '_blank',
   }),
 });
