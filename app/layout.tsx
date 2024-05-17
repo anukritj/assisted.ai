@@ -27,6 +27,17 @@ export default function RootLayout({ children }: LayoutProps) {
   return (
     <html lang="en" className={`motion-safe:scroll-smooth 2xl:text-[24px] ${customFont.variable} font-sans`}>
       <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-JY33R7706P"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-JY33R7706P');
+            `,
+          }}
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `
